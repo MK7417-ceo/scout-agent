@@ -1,0 +1,6 @@
+"""Allows `python -m scout "topic" --mock`."""
+
+from .cli import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())
